@@ -56,3 +56,11 @@ jobs:
            appid: ${{ secrets.APPID3 }}
           run: |
            bash CnUnicom.sh
+
+        - name: Run 号码4
+          env:
+           haoma: ${{ secrets.HAOMA4 }}
+           mm: ${{ secrets.MM2 }}
+           appid: ${{ secrets.APPID4 }}
+          run: |
+           bash CnUnicom.sh
